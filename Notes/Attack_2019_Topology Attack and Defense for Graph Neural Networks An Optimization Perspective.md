@@ -1,9 +1,9 @@
 ### Topology Attack and Defense for Graph Neural Networks:An Optimization Perspective
 ### 2019 IJCAI
 
-**ATTENTION!**: white-box attack, projected gradient descent(PGD), Untargetted Attack, pre-trained & re-trainable model, first-order method(传统优化方法)
+**Keywords**: white-box attack, projected gradient descent(PGD), Untargetted Attack, pre-trained & re-trainable model, first-order method(传统优化方法)
 
-**主要思路概况**：该文章主要通过将Adversarial attack on graphs建模成**传统的优化模型**来攻击GNN，一般来说对于拓扑攻击(topology attack，即通过改变图结构中的邻接关系)来达到攻击原图结构的目的会由于**图结构自身的离散性**而遇到困难，而本文通过将图中的离散图结构松弛到$[0,1]$的实数范围区间来解决该问题。
+**主要思路概括**：该文章主要通过将Adversarial attack on graphs建模成**传统的优化模型**来攻击GNN，一般来说对于拓扑攻击(topology attack，即通过改变图结构中的邻接关系)来达到攻击原图结构的目的会由于**图结构自身的离散性**而遇到困难，而本文通过将图中的离散图结构松弛到$[0,1]$的实数范围区间来解决该问题。
 
 **重点**：
 1.  其中，若约束受限空间是凸(convex)的，则该PGD有闭式解
